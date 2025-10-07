@@ -1,0 +1,72 @@
+------------------------------------------
+>>> Imprimindo mensagem original...
+
+Mensagem Clara (Hexadecimanl):
+0000 - 6f 69 20 70 65 73 73 6f 61 6c                    - oi pessoal
+
+
+Mensagem Clara (String):
+
+oi pessoal
+
+>>> Cifrando com o algoritmo Dummy...
+
+Mensagem Cifrada (Hexadecimal):
+0000 - 9e 99 51 a2 98 a7 a8 a5 98 a4                    - ..Q.......
+
+
+Mensagem Cifrada (String):
+Q¢§¨¥¤
+
+>>> Decifrando com o algoritmo Dummy...
+
+Mensagem Decifrada (Hexadecimal):
+0000 - 6f 69 20 70 65 73 73 6f 61 6c                    - oi pessoal
+
+
+Mensagem Decifrada (String):
+oi pessoal
+
+>>> Cifrando com o algoritmo AES...
+
+Mensagem Cifrada (Hexadecimal):
+0000 - c9 44 7e f3 5f 6d 89 d4 07 30 f8 bf 1f 21 e1 c7  - .D~._m...0...!..
+
+
+Mensagem Cifrada (String):
+ÉD~ó_mÔ0ø¿!áÇ
+
+>>> Decifrando com o algoritmo AES...
+
+Mensagem Decifrada (Hexadecimal):
+0000 - 6f 69 20 70 65 73 73 6f 61 6c                    - oi pessoal
+
+
+Mensagem Decifrada (String):
+oi pessoal
+
+>>> Cifrando com o algoritmo RSA...
+
+Mensagem Cifrada (Hexadecimal):
+0000 - 94 fd b8 fb d5 e5 c5 14 76 a5 55 f8 67 eb 8f fb  - ........v.U.g...
+0000 - 0010 - f5 a0 6b 9a 95 9c c2 5b 58 85 e3 80 f8 3d 0e af  - ..k....[X....=..
+0000 - 0010 - 0020 - 23 c4 27 e6 1d df 7d 5b e1 44 86 be a1 d9 22 df  - #.'...}[.D....".
+0000 - 0010 - 0020 - 0030 - 99 be 72 d5 c2 b2 60 fa 35 ab f6 03 9c 06 b4 13  - ..r...`.5.......
+0000 - 0010 - 0020 - 0030 - 0040 - ce 2c 77 7c 25 55 2b be 41 05 62 52 9e a2 2f 70  - .,w|%U+.A.bR../p
+0000 - 0010 - 0020 - 0030 - 0040 - 0050 - 3a 37 ba 26 b0 1a 9a c5 cb 9f fa f0 1c 19 24 4f  - :7.&..........$O
+0000 - 0010 - 0020 - 0030 - 0040 - 0050 - 0060 - 69 4e e8 f5 32 f2 46 23 b3 9b 96 6f dc 6e 30 58  - iN..2.F#...o.n0X
+0000 - 0010 - 0020 - 0030 - 0040 - 0050 - 0060 - 0070 - 26 8c 0c 43 11 b6 ef 11 59 eb 6c f4 7f 60 39 3f  - &..C....Y.l..`9?
+
+
+Mensagem Cifrada (String):
+ý¸ûÕåÅv¥Uøgëûõ kÂ[Xãø=¯#Ä'æß}[áD¾¡Ù"ß¾rÕÂ²`ú5«ö´Î,w|%U+¾AbR¢/p:7º&°ÅËúð$OiNèõ2òF#³oÜn0X&C¶ïYëlô`9?
+
+>>> Decifrando com o algoritmo RSA...
+
+Mensagem Decifrada (Hexadecimal):
+0000 - 6f 69 20 70 65 73 73 6f 61 6c                    - oi pessoal
+
+
+Mensagem Decifrada (String):
+oi pessoal
+
